@@ -1,3 +1,3 @@
-## High Volatility Options Screener
+## Options Backtesting Simulator
 
-A robust stock options screener, that iterates through a provided list of stock symbols and updates recursively every 30 seconds with new information. It includes a bollinger bands calculation and implied volatility calculation to signal to the user when is a good time for a put or for a call. At the moment only supports Naked Long Calls or Long Puts. Future implementation of auto-trading planned. Generally calculated and simplified for lower portfolio use.
+A robust stock options backtesting simulator that fetches historical stock data and shows how different strategies might've worked and where. Currently support for 9EMA and 200EMA but feel free to add your own strategies into it. Also has an in-built options pricer using Black-Scholes to test out what contracts performed well and whether they were Long Calls or Long Puts.
